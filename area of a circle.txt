@@ -1,0 +1,13 @@
+import java.util.*;
+public class input {
+    public static void main (String args[]){
+        Scanner sc = new Scanner(System.in);
+        int radius=sc.nextInt();
+        double pie= 3.142;
+        double Area= pie*radius*radius;
+        System.out.println("Area of the circle is:-"  +Area);
+
+
+
+    }
+} 
